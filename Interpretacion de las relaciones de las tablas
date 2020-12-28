@@ -1,0 +1,20 @@
+                                         Interpretación de las relaciones entre las tablas
+
+Un empleado (employees) tiene su respectivo empleo (jobs) y un empleo (jobs) puede tener varios empleados (jobs)
+
+Una region (regions) puede tener muchos paises (countries) y un pais (countries) pertenece solo a una region (regions)
+
+Un empleo (jobs) tiene historia de trabajo (job_history) y una historia de trabajo (job_history) esta desiganada para varios empleos (jobs)
+
+Un departamento (departments) tiene una determinada localizacion (locations) y cierta localizacion (locations) le pertenece a un solo departamento (departments)
+
+Los empleados (emplopeyees) tienen su respectiva historia de trabajo (job_history) pero cada historia de trabajo (job_ history) le pertenece a cierto empleado (employees)
+
+Los empleados (emplopeyees) pueden ubicarse en distintos departamentos (departments) pero los departamentos (departments) no se pueden ubicar en los empleados (emplopeyees)
+
+Los departamentos (departments) pueden tener ubicados a varios empleados (emplopeyees) pero los empleados (emplopeyees) no pueden estar ubicados en varios departamentos (departments)
+
+Una historia de trabajo (job_history) incluye a un departamento (department) y un departemento (departament) pertenece a varias historias de trabajo (job_history)
+
+Una localizacion (locations) incluye a un pais (countires) y un pais (country) pertenece a varias localizaciones (locations)
+
